@@ -1,5 +1,7 @@
 import unittest
+
 from src.labyrinth import shortest_path, read_input_file, write_output_file
+
 
 class TestShortestPath(unittest.TestCase):
 
@@ -26,4 +28,4 @@ class TestShortestPath(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main()
+    test.main()
