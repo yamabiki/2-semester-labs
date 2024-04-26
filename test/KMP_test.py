@@ -1,5 +1,5 @@
 import unittest
-from src.KMP import kmp_search, lps_exec
+from src.KMP import kmp_search, lps_exe
 
 
 class TestKMP(unittest.TestCase):
@@ -33,7 +33,7 @@ class TestKMP(unittest.TestCase):
     def test_lps_computation(self):
         needle = "abcdabcy"
         expected_lps = [0, 0, 0, 0, 1, 2, 3, 0]
-        lps = lps_exec(needle)
+        lps = lps_exe(needle)
         self.assertEqual(lps, expected_lps, "Тест для таблиці LPS")
 
     def test_needle_longer_than_haystack(self):

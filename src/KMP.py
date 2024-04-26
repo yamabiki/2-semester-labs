@@ -1,4 +1,4 @@
-def lps_exec(needle):
+def lps_exe(needle):
     lps = [0] * len(needle)
     length = 0
     i = 1
@@ -23,7 +23,7 @@ def kmp_search(haystack, needle):
     if len(needle) > len(haystack):
         return "needle довший ніж haystack"
 
-    lps = lps_exec(needle)
+    lps = lps_exe(needle)
 
     indexes = []
     i = 0
