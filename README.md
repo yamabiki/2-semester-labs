@@ -13,6 +13,6 @@ If already installed use this command instead:
 
 now in CMD navigate to test folder (.../2-semester-labs/test) and use command:
 
-`pytest 'nameofthetestfile.py'`
+`pytest`
 
 
