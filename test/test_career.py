@@ -27,3 +27,6 @@ class TestMaxExperience(unittest.TestCase):
             [0, 1, 0, 1, 0]
         ]
         self.assertEqual(max_experience(hierarchy), 3)
+
+if __name__ == "__main__":
+    unittest.main()

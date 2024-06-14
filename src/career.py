@@ -27,12 +27,12 @@ def max_experience(hierarchy):
     return max_exp[0]
 
 
-with open("../test/career.in", "r") as f:
+with open("../resources/career.in", "r") as f:
     L = int(f.readline())
     hierarchy = []
     for _ in range(L):
         hierarchy.append(list(map(int, f.readline().split())))
 
 max_exp = max_experience(hierarchy)
-with open("../test/career.out", "w") as f:
+with open("../resources/career.out", "w") as f:
     f.write(str(max_exp))
